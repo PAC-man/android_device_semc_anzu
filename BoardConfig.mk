@@ -2,7 +2,7 @@
 -include vendor/semc/anzu/BoardConfigVendor.mk
 
 TARGET_KERNEL_SOURCE := kernel/semc/msm7x30
-TARGET_KERNEL_CONFIG := cyanogen_anzu_defconfig
+TARGET_KERNEL_CONFIG := pac_anzu_defconfig
 #TARGET_PREBUILT_KERNEL := device/semc/anzu/prebuilt/kernel
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 
