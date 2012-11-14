@@ -7,6 +7,8 @@ TARGET_KERNEL_CONFIG := pac_anzu_defconfig
 #TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-gnueabihf-linaro-4.7
 
+TARGET_RECOVERY_INITRC := device/semc/anzu/recovery/init.rc
+
 SENSORS_COMPASS_AK8975 := true
 SENSORS_ACCEL_BMA150_INPUT := true
 SENSORS_ACCEL_BMA250_INPUT := false
